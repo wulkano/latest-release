@@ -1,0 +1,15 @@
+{
+  "name": "kap-latest-release",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^11.0.2"
+  },
+  "devDependencies": {
+    "@now/node": "^1.5.1",
+    "@types/got": "^9.6.10",
+    "@types/node": "^13.13.2",
+    "typescript": "^3.8.3"
+  }
+}
