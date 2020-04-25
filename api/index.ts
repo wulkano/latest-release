@@ -13,7 +13,9 @@ export default async (req: NowRequest, res: NowResponse) => {
     res.writeHead(302, {
       Location: dmgLink
     });
+    res.end();
   } else {
     res.status(404);
+    res.send('Artifact not found');
   }
 }
